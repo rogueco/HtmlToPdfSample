@@ -135,6 +135,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "OpenHtmlToPdf/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/OpenHtmlToPdf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/OpenHtmlToPdf.dll": {}
+        }
+      },
       "Select.HtmlToPdf.NetCore/21.2.0": {
         "type": "package",
         "dependencies": {
@@ -590,6 +599,18 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "OpenHtmlToPdf/1.12.0": {
+      "sha512": "DMMyVfsJN4RKS/HdZu3isdDhVE5VMhphVZikTw6qCFWZUuq32kS4JSR34MggIwAaw0dOTtmJRj9iVhqitEidDg==",
+      "type": "package",
+      "path": "openhtmltopdf/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/OpenHtmlToPdf.dll",
+        "openhtmltopdf.1.12.0.nupkg.sha512",
+        "openhtmltopdf.nuspec"
+      ]
+    },
     "Select.HtmlToPdf.NetCore/21.2.0": {
       "sha512": "zFXo+uVZpZVDhrKnoo/5ZqLgHWRZsbcIeO3sDyW/C4EPHNDimkrSkOd3reQXbn4sTonBCitFIjAmiH2Od5aE1A==",
       "type": "package",
@@ -950,36 +971,46 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "HtmlToPdf.Service >= 1.0.0",
+      "OpenHtmlToPdf >= 1.12.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "/home/tom-fletcher/.nuget/packages/": {}
+    "C:\\Users\\tom_f\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.API/HtmlToPdf.API.csproj",
+      "projectUniqueName": "D:\\Git\\ClonedRepos\\HtmlToPdfSample\\HtmlToPdf.API\\HtmlToPdf.API.csproj",
       "projectName": "HtmlToPdf.API",
-      "projectPath": "/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.API/HtmlToPdf.API.csproj",
-      "packagesPath": "/home/tom-fletcher/.nuget/packages/",
-      "outputPath": "/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.API/obj/",
+      "projectPath": "D:\\Git\\ClonedRepos\\HtmlToPdfSample\\HtmlToPdf.API\\HtmlToPdf.API.csproj",
+      "packagesPath": "C:\\Users\\tom_f\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\ClonedRepos\\HtmlToPdfSample\\HtmlToPdf.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/tom-fletcher/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\tom_f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/HtmlToPdf.Service.csproj": {
-              "projectPath": "/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/HtmlToPdf.Service.csproj"
+            "D:\\Git\\ClonedRepos\\HtmlToPdfSample\\HtmlToPdf.Service\\HtmlToPdf.Service.csproj": {
+              "projectPath": "D:\\Git\\ClonedRepos\\HtmlToPdfSample\\HtmlToPdf.Service\\HtmlToPdf.Service.csproj"
             }
           }
         }
@@ -994,6 +1025,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "OpenHtmlToPdf": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -1017,8 +1052,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenHtmlToPdf 1.12.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenHtmlToPdf",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
