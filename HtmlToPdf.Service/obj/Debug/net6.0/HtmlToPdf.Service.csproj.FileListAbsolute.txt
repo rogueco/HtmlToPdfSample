@@ -1,0 +1,13 @@
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/bin/Debug/net6.0/Select.Html.dep
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/bin/Debug/net6.0/HtmlToPdf.Service.deps.json
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/bin/Debug/net6.0/HtmlToPdf.Service.dll
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/bin/Debug/net6.0/ref/HtmlToPdf.Service.dll
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/bin/Debug/net6.0/HtmlToPdf.Service.pdb
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.csproj.AssemblyReference.cache
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.AssemblyInfoInputs.cache
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.AssemblyInfo.cs
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.csproj.CoreCompileInputs.cache
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.dll
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/ref/HtmlToPdf.Service.dll
+/home/tom-fletcher/Git/Projects/HtmlToPdf/HtmlToPdfSample/HtmlToPdf.Service/obj/Debug/net6.0/HtmlToPdf.Service.pdb
