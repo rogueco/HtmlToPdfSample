@@ -27,7 +27,9 @@ public class DocumentGenerator : IDocumentGenerator
 
         PdfDocument document = converter.ConvertHtmlString(html);
 
-        document.Save("Test.pdf");
+        document.Save("sample.pdf");
+        
+        document.Close();
 
     }
 }

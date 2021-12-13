@@ -3,6 +3,8 @@
 // </copyright>
 // <author>Tom Fletcher, Software Engineer</author>
 
+using SelectPdf;
+
 namespace HtmlToPdf.Service.Services.Interfaces;
 
 public interface IDocumentGenerator
