@@ -10,7 +10,7 @@ namespace HtmlToPdf.Service.Services.Implementations;
 
 public class DocumentGenerator : IDocumentGenerator
 {
-    public void GenerateHtmlToPdfDocument(string rawHtml)
+    public byte[] GenerateHtmlToPdfDocument(string rawHtml)
     {
 
         var html = rawHtml;
@@ -27,9 +27,29 @@ public class DocumentGenerator : IDocumentGenerator
 
         PdfDocument document = converter.ConvertHtmlString(html);
 
-        document.Save("sample.pdf");
-        
+        byte[] pdf = document.Save();
         document.Close();
-
+        return pdf;
     }
+
+    // public byte[] GenerateHtmlToPdfDocumentPath(string filePath)
+    // {
+    //     var html = rawHtml;
+    //     SelectPdf.HtmlToPdf converter = new();
+    //
+    //     converter.Options.PdfPageSize = PdfPageSize.A4;
+    //     converter.Options.PdfPageOrientation = PdfPageOrientation.Portrait;
+    //
+    //     string testHtml = @"<html>><body>Hello <strong>World!</strong></body></html>";
+    //     if (string.IsNullOrEmpty(html))
+    //     {
+    //         html = testHtml;
+    //     }
+    //
+    //     PdfDocument document = converter.ConvertHtmlString(html);
+    //
+    //     byte[] pdf = document.Save();
+    //     document.Close();
+    //     return pdf;
+    // }
 }

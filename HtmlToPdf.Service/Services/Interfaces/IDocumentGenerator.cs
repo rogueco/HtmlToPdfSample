@@ -9,5 +9,7 @@ namespace HtmlToPdf.Service.Services.Interfaces;
 
 public interface IDocumentGenerator
 {
-    void GenerateHtmlToPdfDocument(string rawHtml);
+    byte[] GenerateHtmlToPdfDocument(string rawHtml);
+    
+    // byte[] GenerateHtmlToPdfDocumentPath(string filePath);
 }

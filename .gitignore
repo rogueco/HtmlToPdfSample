@@ -367,3 +367,9 @@ FodyWeavers.xsd
 out
 gen
 
+bin
+obj
+packages
+bin/
+obj/
+packages/

@@ -7,16 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="OpenHtmlToPdf" Version="1.12.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\HtmlToPdf.Service\HtmlToPdf.Service.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="Documents\TestDocument.cshtml" />
+      <Folder Include="Views\Pdf" />
     </ItemGroup>
 
 </Project>
